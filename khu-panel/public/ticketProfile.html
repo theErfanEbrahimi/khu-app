@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+
+<!--
+Template Name: Metronic - Responsive Admin Dashboard Template build with Twitter Bootstrap 4 & Angular 8
+Author: KeenThemes
+Website: http://www.keenthemes.com/
+Contact: support@keenthemes.com
+Follow: www.twitter.com/keenthemes
+Dribbble: www.dribbble.com/keenthemes
+Like: www.facebook.com/keenthemes
+Purchase: http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes
+Renew Support: http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes
+License: You must have a valid license purchased only from themeforest(the above link) in order to legally use the theme for your project.
+-->
+<html lang="en" direction="rtl" dir="rtl" style="direction: rtl">
+
+<!-- begin::Head -->
+<head>
+    <base href="../../../">
+    <meta charset="utf-8" />
+    <title>خوارزمی | پاسخ توییت</title>
+    <meta name="description" content="Private chat example">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!--begin::Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700|Asap+Condensed:500">
+
+    <!--end::Fonts -->
+
+    <!--begin::Global Theme Styles(used by all pages) -->
+    <link href="assets/plugins/global/plugins.bundle.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/style.bundle.rtl.css" rel="stylesheet" type="text/css" />
+
+    <!--end::Global Theme Styles -->
+
+    <!--begin::Layout Skins(used by all pages) -->
+
+    <!--end::Layout Skins -->
+    <link rel="shortcut icon" href="images/favicon.ico"/>
+</head>
+
+<!-- end::Head -->
+
+<!-- begin::Body -->
+<body class="kt-app__aside--left kt-page-content-white kt-quick-panel--right kt-demo-panel--right kt-offcanvas-panel--right kt-header--fixed kt-header-mobile--fixed kt-subheader--transparent kt-aside--enabled kt-aside--fixed kt-page--loading">
+<div id="dvLoading" style="
+rgba(0,0,0,0.9)
+center center;
+height: 100vh;
+width: 100vw;
+position: fixed;
+left: 0;
+top: 0;
+/* margin: -25px 0 0 -25px; */
+z-index: 1000;
+display: flex;
+align-items: center;
+justify-content: center;
+background-color:#00000095;
+">
+    <div class="lds-roller"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+</div>
+<!-- begin:: Page -->
+
+<!-- begin:: Header Mobile -->
+<div id="kt_header_mobile" class="kt-header-mobile  kt-header-mobile--fixed ">
+    <div class="kt-header-mobile__logo">
+        <a href="">
+            <img style="width: 35px ; height: 70px  " alt="Logo" src="images/ic_khu_logo_w_fa.png"/>
+        </a>
+    </div>
+    <div class="kt-header-mobile__toolbar">
+        <button class="kt-header-mobile__toolbar-toggler kt-header-mobile__toolbar-toggler--left" id="kt_aside_mobile_toggler"><span></span></button>
+        <button class="kt-header-mobile__toolbar-topbar-toggler" id="kt_header_mobile_topbar_toggler"><i class="flaticon-more-1"></i></button>
+    </div>
+</div>
+
+<!-- end:: Header Mobile -->
+<div class="kt-grid kt-grid--hor kt-grid--root">
+    <div class="kt-grid__item kt-grid__item--fluid kt-grid kt-grid--ver kt-page">
+        <div class="kt-grid__item kt-grid__item--fluid kt-grid kt-grid--hor kt-wrapper" id="kt_wrapper">
+
+            <!-- begin:: Header -->
+            <div id="kt_header" class="kt-header kt-grid__item  kt-header--fixed " data-ktheader-minimize="on">
+                <div class="kt-container  kt-container--fluid ">
+
+                    <!-- begin:: Brand -->
+                    <div class="kt-header__brand " id="kt_header_brand">
+                        <div class="kt-header__brand-logo">
+                            <a href="">
+                                <img style="width: 35px ; height: 70px  " alt="Logo" src="images/ic_khu_logo_w_fa.png"/>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- end:: Brand -->
+
+                    <!-- begin:: Header Topbar -->
+                    <div class="kt-header__topbar">
+
+                        <!--begin: Search -->
+
+                        <!--end: Search -->
+
+
+
+                        <!--begin: User bar -->
+                        <div class="kt-header__topbar-item kt-header__topbar-item--user">
+                            <div class="kt-header__topbar-wrapper" data-toggle="dropdown" data-offset="10px,0px">
+                                <span class="kt-header__topbar-welcome kt-visible-desktop"></span>
+                                <span  class="kt-header__topbar-username kt-visible-desktop" id="adminName"></span>
+                                <span class="kt-header__topbar-icon kt-bg-brand kt-hidden"><b></b></span>
+                            </div>
+                            <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right dropdown-menu-anim dropdown-menu-xl">
+
+                                <!--begin: Head -->
+                                <div class="kt-user-card kt-user-card--skin-light kt-notification-item-padding-x">
+                                    <div class="kt-user-card__avatar" id="avatarAdmin">
+
+                                        <!--use below badge element instead the user avatar to display username's first letter(remove kt-hidden class to display it) -->
+                                        <span class="kt-badge kt-badge--username kt-badge--unified-success kt-badge--lg kt-badge--rounded kt-badge--bold kt-hidden">S</span>
+                                    </div>
+                                    <div class="kt-user-card__name" id="username">
+                                    </div>
+
+                                </div>
+
+                                <!--end: Head -->
+
+                                <!--begin: Navigation -->
+                                <div class="kt-notification">
+
+                                    <div class="kt-notification__custom kt-space-between">
+                                        <button onclick="logout()"  class="btn btn-label btn-label-brand btn-sm btn-bold">خروچ </button>
+                                    </div>
+                                </div>
+
+                                <!--end: Navigation -->
+                            </div>
+                        </div>
+
+                        <!--end: User bar -->
+                    </div>
+
+                    <!-- end:: Header Topbar -->
+                </div>
+            </div>
+
+            <!-- end:: Header -->
+            <div class="kt-body kt-grid__item kt-grid__item--fluid kt-grid kt-grid--hor kt-grid--stretch" id="kt_body">
+                <div class="kt-container  kt-container--fluid  kt-grid kt-grid--ver">
+
+                    <!-- begin:: Aside -->
+                    <button class="kt-aside-close " id="kt_aside_close_btn"><i class="la la-close"></i></button>
+                    <div class="kt-aside  kt-aside--fixed  kt-grid__item kt-grid kt-grid--desktop kt-grid--hor-desktop" id="kt_aside">
+
+                        <!-- begin:: Aside Menu -->
+                        <div class="kt-aside-menu-wrapper kt-grid__item kt-grid__item--fluid" id="kt_aside_menu_wrapper">
+                            <div id="kt_aside_menu" class="kt-aside-menu " data-ktmenu-vertical="1" data-ktmenu-scroll="1">
+                                <ul id="menu" class="kt-menu__nav" >
+
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- end:: Aside Menu -->
+                    </div>
+
+                    <!-- end:: Aside -->
+                    <div class="kt-content  kt-grid__item kt-grid__item--fluid kt-grid kt-grid--hor" id="kt_content">
+
+                        <!-- begin:: Content -->
+                        <div class="kt-container  kt-container--fluid  kt-grid__item kt-grid__item--fluid">
+
+                            <!--Begin::App-->
+                            <div class="kt-grid kt-grid--desktop kt-grid--ver kt-grid--ver-desktop kt-app">
+
+                                <!--Begin:: App Aside Mobile Toggle-->
+                                <button class="kt-app__aside-close" id="kt_chat_aside_close">
+                                    <i class="la la-close"></i>
+                                </button>
+
+                                <!--End:: App Aside Mobile Toggle-->
+
+                                <!--Begin:: App Aside-->
+
+                                <!--End:: App Aside-->
+
+                                <!--Begin:: App Content-->
+                                <div class="kt-grid__item kt-grid__item--fluid kt-app__content" id="kt_chat_content">
+                                    <div class="kt-chat">
+                                        <div class="kt-portlet kt-portlet--head-lg kt-portlet--last">
+                                            <div class="kt-portlet__head">
+                                                <div class="kt-chat__head ">
+                                                    <div class="kt-chat__left">
+
+                                                        <!--begin:: Aside Mobile Toggle -->
+                                                        <button type="button" class="btn btn-clean btn-sm btn-icon btn-icon-md kt-hidden-desktop" id="kt_chat_aside_mobile_toggle">
+                                                            <i class="flaticon2-open-text-book"></i>
+                                                        </button>
+
+                                                        <!--end:: Aside Mobile Toggle-->
+                                                    </div>
+                                                    <div class="kt-chat__center">
+                                                        <div class="kt-chat__label">
+                                                            <a href="#" class="kt-chat__title" > </a>
+                                                            <span class="kt-chat__status">
+																		<span class="kt-badge kt-badge--dot kt-badge--success"></span> فعال
+																	</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="kt-chat__right">
+                                                        <div class="dropdown dropdown-inline">
+
+                                                            <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right dropdown-menu-md">
+
+                                                                <!--begin::Nav-->
+
+                                                                <!--end::Nav-->
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="kt-portlet__body">
+                                                <div class="kt-scroll kt-scroll--pull" data-mobile-height="300">
+                                                    <div id="chat" class="kt-chat__messages">
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="kt-portlet__foot">
+                                                <div class="kt-chat__input">
+                                                    <div class="kt-chat__editor">
+                                                        <input id="ticketText" style="height: 50px ; width: 100%" placeholder="تایپ کنید..."></input>
+                                                    </div>
+                                                    <div class="kt-chat__toolbar">
+                                                        <input type='file' name="uploadPhoto"
+                                                               id="upload-file" style="display:none">
+                                                        <div class="kt_chat__actions">
+                                                            <button type="button" class="btn btn-primary" onclick="sendTicket()">ارسال پاسخ</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!--End:: App Content-->
+                            </div>
+
+                            <!--End::App-->
+                        </div>
+
+                        <!-- end:: Content -->
+                    </div>
+                </div>
+            </div>
+
+            <div class="kt-footer kt-grid__item" id="kt_footer">
+                <div class="kt-container  kt-container--fluid ">
+                    <div class="kt-footer__wrapper">
+                        <div class="kt-footer__copyright">
+                            1398&nbsp;&nbsp;<a href="http://keenthemes.com/metronic" target="_blank" class="kt-link"></a>
+                        </div>
+                        <div class="kt-footer__menu">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<!-- end:: Page -->
+
+<!-- begin::Quick Panel -->
+
+<!-- end::Quick Panel -->
+
+<!-- begin::Scrolltop -->
+<div id="kt_scrolltop" class="kt-scrolltop">
+    <i class="fa fa-arrow-up"></i>
+</div>
+
+<!-- end::Scrolltop -->
+
+<!-- begin::Sticky Toolbar -->
+
+<!-- end::Sticky Toolbar -->
+
+<!-- begin::Demo Panel -->
+
+<!-- end::Demo Panel -->
+
+<!--Begin:: Chat-->
+
+<!--ENd:: Chat-->
+
+<!-- begin::Global Config(global config for global JS sciprts) -->
+<script>
+    var KTAppOptions = {
+        "colors": {
+            "state": {
+                "brand": "#5d78ff",
+                "light": "#ffffff",
+                "dark": "#282a3c",
+                "primary": "#5867dd",
+                "success": "#34bfa3",
+                "info": "#36a3f7",
+                "warning": "#ffb822",
+                "danger": "#fd3995"
+            },
+            "base": {
+                "label": ["#c5cbe3", "#a1a8c3", "#3d4465", "#3e4466"],
+                "shape": ["#f0f3ff", "#d9dffa", "#afb4d4", "#646c9a"]
+            }
+        }
+    };
+</script>
+
+<!-- end::Global Config -->
+
+<!--begin::Global Theme Bundle(used by all pages) -->
+<script src="assets/plugins/global/plugins.bundle.js" type="text/javascript"></script>
+<script src="assets/js/scripts.bundle.js" type="text/javascript"></script>
+
+<!--end::Global Theme Bundle -->
+
+<!--begin::Page Scripts(used by this page) -->
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
+
+<script src="assets/js/pages/custom/chat/chat.js" type="text/javascript"></script>
+<script src="javascripts/ticketProfile.js"></script>
+<script src="javascripts/menu.js"></script>
+
+
+<!--end::Page Scripts -->
+</body>
+
+<!-- end::Body -->
+</html>

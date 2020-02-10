@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5a239c89-6464-4e39-a853-da1713a696fd" name="Default Changelist" comment="add some model (database)">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/khu-panel/services/ticket.js" beforeDir="false" afterPath="$PROJECT_DIR$/khu-panel/services/ticket.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/khu-panel/public/index.html" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="ProjectId" id="1XFuYguZoI3GLcLwu0SIEPBI86p" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="10.15.1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/models" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.folding" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\project\KHU\models" />
+      <recent name="E:\project\KHU\khu-panel\routes" />
+      <recent name="E:\project\KHU\khu-panel\public\javascripts" />
+      <recent name="E:\project\KHU\khu-panel\public" />
+      <recent name="E:\project\KHU\khu-panel\public\images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\project\KHU\khu-panel\public" />
+      <recent name="E:\project\KHU\khu-app" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Node.js.www">
+    <configuration name="app.js (1)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/khu-app/app.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="app.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/khu-panel/app.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="www" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/khu-panel/bin/www" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.www" />
+        <item itemvalue="Node.js.app.js (1)" />
+        <item itemvalue="Node.js.app.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5a239c89-6464-4e39-a853-da1713a696fd" name="Default Changelist" comment="" />
+      <created>1571849611214</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1571849611214</updated>
+      <workItem from="1571849715492" duration="795000" />
+      <workItem from="1573817227841" duration="1857000" />
+      <workItem from="1575795405793" duration="1218000" />
+      <workItem from="1575908548639" duration="1294000" />
+      <workItem from="1577473293345" duration="1496000" />
+      <workItem from="1579007519631" duration="2852000" />
+      <workItem from="1579019287364" duration="600000" />
+      <workItem from="1580280083756" duration="7146000" />
+      <workItem from="1580298849956" duration="41000" />
+      <workItem from="1580313980100" duration="1450000" />
+      <workItem from="1580327931616" duration="32000" />
+      <workItem from="1580407036946" duration="899000" />
+      <workItem from="1580457169735" duration="7030000" />
+      <workItem from="1580536490534" duration="297000" />
+      <workItem from="1580654225114" duration="219000" />
+      <workItem from="1580709422719" duration="129000" />
+      <workItem from="1580740063956" duration="1655000" />
+      <workItem from="1580747876850" duration="9163000" />
+      <workItem from="1580784422302" duration="7996000" />
+      <workItem from="1580800014071" duration="2766000" />
+      <workItem from="1580811718074" duration="21000" />
+    </task>
+    <task id="LOCAL-00001" summary="add some model (database)">
+      <created>1573819066057</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1573819066057</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add some model (database)">
+      <created>1577473610204</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1577473610204</updated>
+    </task>
+    <task id="LOCAL-00003" summary="debug">
+      <created>1579008504204</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1579008504204</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add some model (database)">
+      <created>1579008618862</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1579008618862</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add some model (database)">
+      <created>1579009730494</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1579009730494</updated>
+    </task>
+    <task id="LOCAL-00006" summary="add some model (database)">
+      <created>1580314777192</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1580314777192</updated>
+    </task>
+    <task id="LOCAL-00007" summary="add some model (database)">
+      <created>1580793332612</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1580793332613</updated>
+    </task>
+    <task id="LOCAL-00008" summary="final commit">
+      <created>1580793435686</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1580793435686</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="debug" />
+    <MESSAGE value="add some model (database)" />
+    <MESSAGE value="final commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="final commit" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="306" y="0" key="CommitChangelistDialog2" timestamp="1580793433608">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="306" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1580793433608" />
+    <state width="1345" height="331" key="GridCell.Tab.0.bottom" timestamp="1580806839772">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="331" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1580806839772" />
+    <state width="1345" height="331" key="GridCell.Tab.0.center" timestamp="1580806839772">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="331" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1580806839772" />
+    <state width="1345" height="331" key="GridCell.Tab.0.left" timestamp="1580806839771">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="331" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1580806839771" />
+    <state width="1345" height="331" key="GridCell.Tab.0.right" timestamp="1580806839772">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="331" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1580806839772" />
+    <state x="275" y="94" key="Vcs.Push.Dialog.v2" timestamp="1580793438221">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="94" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1580793438221" />
+    <state x="92" y="92" width="1182" height="544" key="dock-window-1" timestamp="1580792277859">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="92" y="92" width="1182" height="544" key="dock-window-1/0.0.1366.728@0.0.1366.728" timestamp="1580792277859" />
+  </component>
+</project>
